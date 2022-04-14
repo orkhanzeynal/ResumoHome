@@ -1,0 +1,25 @@
+nav {
+
+    .button {
+        float: right;
+        margin-top: 2rem;
+        margin-right: 2rem;
+        align-items: center;
+
+        .menu {
+            margin-right: 10px;
+            float: left;
+            font-size: 1.3rem;
+            font-family: sans-serif;
+        }
+        i{
+            font-size: 1.3rem;
+        }
+    }
+
+    .navigation {
+        // display: none;
+        float: right;
+    }
+
+}
