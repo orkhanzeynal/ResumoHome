@@ -5,21 +5,73 @@ nav {
         margin-top: 2rem;
         margin-right: 2rem;
         align-items: center;
+        color: #B9B8B8;
 
         .menu {
             margin-right: 10px;
             float: left;
-            font-size: 1.3rem;
+            font-size: 1.2rem;
             font-family: sans-serif;
         }
-        i{
-            font-size: 1.3rem;
+
+        a {
+            i {
+                color: #B9B8B8;
+                font-size: 1.2rem;
+            }
         }
     }
 
     .navigation {
-        // display: none;
+        display: none;
         float: right;
+
+        ul {
+            li {
+                a {
+                    font-family: sans-serif;
+                    text-decoration: none;
+                    font-size: 1.7rem;
+                    line-height: 4rem;
+                    color: #B9B8B8;
+&:hover{
+    color: #fff;
+}
+                }
+            }
+        }
+
+        .social {
+            margin-top: 2rem;
+            i {
+                font-size: 1.4rem;
+                color: #B9B8B8;
+                padding: .4rem;
+                background-color: #242321;
+                margin-right: .2rem;
+                &:hover{
+                    color:#242321 ;
+                    background-color: #B9B8B8;
+                    cursor: pointer;
+                }
+            }
+            h3{
+                margin-top: 2rem;
+                font-size: 1.2rem;
+                color: #7A8888;
+                span{
+                    color: #DDDDB7;
+                    border-bottom: 1px solid #7A8888;
+                    padding-bottom: .3rem;
+                    &:hover{
+                        cursor: pointer;
+                        color: rgb(17, 218, 50);
+                    border-bottom: 1px solid rgb(17, 218, 50);
+
+                    }
+                }
+            }
+        }
     }
 
 }

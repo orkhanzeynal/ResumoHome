@@ -55,21 +55,72 @@ nav .button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: #B9B8B8;
 }
 
 nav .button .menu {
   margin-right: 10px;
   float: left;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-family: sans-serif;
 }
 
-nav .button i {
-  font-size: 1.3rem;
+nav .button a i {
+  color: #B9B8B8;
+  font-size: 1.2rem;
 }
 
 nav .navigation {
+  display: none;
   float: right;
+}
+
+nav .navigation ul li a {
+  font-family: sans-serif;
+  text-decoration: none;
+  font-size: 1.7rem;
+  line-height: 4rem;
+  color: #B9B8B8;
+}
+
+nav .navigation ul li a:hover {
+  color: #fff;
+}
+
+nav .navigation .social {
+  margin-top: 2rem;
+}
+
+nav .navigation .social i {
+  font-size: 1.4rem;
+  color: #B9B8B8;
+  padding: .4rem;
+  background-color: #242321;
+  margin-right: .2rem;
+}
+
+nav .navigation .social i:hover {
+  color: #242321;
+  background-color: #B9B8B8;
+  cursor: pointer;
+}
+
+nav .navigation .social h3 {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: #7A8888;
+}
+
+nav .navigation .social h3 span {
+  color: #DDDDB7;
+  border-bottom: 1px solid #7A8888;
+  padding-bottom: .3rem;
+}
+
+nav .navigation .social h3 span:hover {
+  cursor: pointer;
+  color: #11da32;
+  border-bottom: 1px solid #11da32;
 }
 
 .mainSection {
@@ -112,6 +163,67 @@ nav .navigation {
 
 .mainSection img {
   margin-top: 3.2rem;
+}
+
+.secondSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.secondSection .img {
+  padding: 1.1rem 2.3rem 1.3rem 2.3rem;
+  border: 1px solid #5D5B5A;
+  margin-left: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
+.secondSection .img img {
+  width: 20rem;
+  padding: 1.5rem 2rem 5rem 2rem;
+  border: 1px solid #5D5B5A;
+}
+
+.secondSection .img img:hover {
+  width: 18rem;
+  cursor: pointer;
+}
+
+.secondSection .img h3 {
+  color: #5D5B5A;
+  font-size: 1.3rem;
+  position: absolute;
+  margin-bottom: 3rem;
+}
+
+.secondSection .img p {
+  word-spacing: .9rem;
+  margin-bottom: .2rem;
+  color: #fff;
+  font-size: 2rem;
+  font-size: 1.3rem;
+  position: absolute;
+}
+
+.secondSection .img p span {
+  color: green;
+  font-weight: bold;
 }
 
 body {
